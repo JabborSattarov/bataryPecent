@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(90deg , aqua, blue);
+    display: flex;
+    justify-content: center;
+}
+.section{
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    background: rgba(255,255,255, 0.8);
+
+}
+.card{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+.borderBatary{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+    height: 70px;
+    overflow: hidden;
+    padding: 10px;
+    background: #000;
+    position: relative;
+
+}
+
+.bayeryBG{
+    height: 100%;
+    background: green;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.percent{
+    font-family: sans-serif;
+    font-size:20px;
+    position: absolute;
+    left: 40%;
+    color: white;
+}
+.info{
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    background: rgba(0,0,0, .91);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
